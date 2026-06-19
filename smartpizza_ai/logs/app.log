@@ -1,0 +1,92 @@
+2026-06-19T13:15:29.648+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] com.smartpizza.SmartpizzaAiApplication   : Starting SmartpizzaAiApplication using Java 21.0.3 with PID 28592 (C:\Users\SH20696203\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\smartpizza_ai\target\classes started by SH20696203 in C:\Users\SH20696203\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\smartpizza_ai)
+2026-06-19T13:15:29.693+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] com.smartpizza.SmartpizzaAiApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-19T13:15:29.976+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-19T13:15:29.978+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-19T13:15:36.181+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-19T13:15:36.884+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 560 ms. Found 5 JPA repository interfaces.
+2026-06-19T13:15:49.860+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-19T13:15:49.985+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-19T13:15:49.990+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-19T13:15:50.484+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 20502 ms
+2026-06-19T13:15:51.215+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-19T13:15:51.670+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-19T13:15:54.378+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-19T13:15:54.686+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-19T13:15:56.671+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bed4b2e
+2026-06-19T13:15:56.678+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-19T13:15:57.315+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/smartpizza_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: smartpizza_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-19T13:16:02.223+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-19T13:16:02.591+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T13:16:02.830+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-19T13:16:03.864+05:30  WARN 28592 --- [smartpizza_ai] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-19T13:16:04.113+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2026-06-19T13:16:05.591+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-19T13:16:05.605+05:30  INFO 28592 --- [smartpizza_ai] [restartedMain] com.smartpizza.SmartpizzaAiApplication   : Started SmartpizzaAiApplication in 38.781 seconds (process running for 42.012)
+2026-06-19T13:16:37.400+05:30  INFO 28592 --- [smartpizza_ai] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-19T13:16:37.400+05:30  INFO 28592 --- [smartpizza_ai] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-19T13:16:37.402+05:30  INFO 28592 --- [smartpizza_ai] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-19T13:18:05.571+05:30  INFO 28592 --- [smartpizza_ai] [http-nio-8080-exec-2] c.s.serviceImpl.PizzaServiceImpl         : Adding pizza3 to cart of user 1
+2026-06-19T13:18:33.604+05:30  INFO 28592 --- [smartpizza_ai] [http-nio-8080-exec-5] c.s.serviceImpl.PizzaServiceImpl         : Order placed successfully
+2026-06-19T13:18:44.326+05:30  INFO 28592 --- [smartpizza_ai] [http-nio-8080-exec-1] c.s.serviceImpl.PizzaServiceImpl         : Order placed successfully
+2026-06-19T16:31:22.608+05:30  INFO 28592 --- [smartpizza_ai] [RMI TCP Connection(246)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-19T16:31:22.637+05:30  INFO 28592 --- [smartpizza_ai] [RMI TCP Connection(246)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-19T16:31:22.660+05:30  INFO 28592 --- [smartpizza_ai] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-19T16:31:22.680+05:30  INFO 28592 --- [smartpizza_ai] [RMI TCP Connection(246)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:31:22.698+05:30  INFO 28592 --- [smartpizza_ai] [RMI TCP Connection(246)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-19T16:31:22.709+05:30  INFO 28592 --- [smartpizza_ai] [RMI TCP Connection(246)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-19T19:11:29.147+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] com.smartpizza.SmartpizzaAiApplication   : Starting SmartpizzaAiApplication using Java 21.0.3 with PID 22752 (C:\Users\SH20696203\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\smartpizza_ai\target\classes started by SH20696203 in C:\Users\SH20696203\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\smartpizza_ai)
+2026-06-19T19:11:29.157+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] com.smartpizza.SmartpizzaAiApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-19T19:11:29.326+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-19T19:11:29.327+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-19T19:11:31.452+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-19T19:11:31.630+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 5 JPA repository interfaces.
+2026-06-19T19:11:32.936+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-19T19:11:32.967+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-19T19:11:32.968+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-06-19T19:11:33.063+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3735 ms
+2026-06-19T19:11:33.436+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-19T19:11:33.676+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-06-19T19:11:35.787+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-19T19:11:35.949+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-19T19:11:36.699+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@154d3ae7
+2026-06-19T19:11:36.705+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-19T19:11:37.028+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/smartpizza_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: smartpizza_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-19T19:11:40.521+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-19T19:11:40.789+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T19:11:41.053+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-19T19:11:42.092+05:30  WARN 22752 --- [smartpizza_ai] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-19T19:11:42.318+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+2026-06-19T19:11:43.339+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-19T19:11:43.344+05:30  INFO 22752 --- [smartpizza_ai] [restartedMain] com.smartpizza.SmartpizzaAiApplication   : Started SmartpizzaAiApplication in 15.368 seconds (process running for 17.46)
+2026-06-19T19:12:28.431+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-19T19:12:28.431+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-19T19:12:28.431+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-19T19:12:29.541+05:30  WARN 22752 --- [smartpizza_ai] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: User Not Found]
+2026-06-19T19:12:38.005+05:30  WARN 22752 --- [smartpizza_ai] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: Invalid Password]
+2026-06-19T19:15:01.909+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-2] c.s.serviceImpl.PizzaServiceImpl         : user Registering Likitha
+2026-06-19T19:15:01.909+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-2] c.s.serviceImpl.PizzaServiceImpl         : User registered successfully
+2026-06-19T19:15:31.304+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-7] c.s.serviceImpl.PizzaServiceImpl         : Adding pizza28 to cart of user 8
+2026-06-19T19:15:31.320+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-7] c.s.serviceImpl.PizzaServiceImpl         : Cart updated successfully
+2026-06-19T19:16:11.857+05:30  INFO 22752 --- [smartpizza_ai] [http-nio-8080-exec-10] c.s.serviceImpl.PizzaServiceImpl         : Order placed successfully
