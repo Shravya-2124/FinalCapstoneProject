@@ -1,0 +1,196 @@
+/* ===== GLOBAL STYLING ===== */
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(
+    135deg,
+    #1e3c72 0%,
+    #2a5298 100%
+  );
+  min-height: 100vh;
+}
+ 
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.login-card {
+  width: 450px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
+}
+ 
+.login-card h2 {
+  text-align: center;
+  color: #1e3c72;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+ 
+.login-card p {
+  text-align: center;
+  color: gray;
+  margin-bottom: 25px;
+}
+ 
+.form-control {
+  border-radius: 10px !important;
+  height: 45px;
+}
+ 
+.btn-login {
+  width: 100%;
+  background: #ff6b35;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 45px;
+}
+ 
+.btn-login:hover {
+  background: #e85a2a;
+}
+ 
+.footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+body {
+  background-color: #f8f9fa;
+  padding-bottom: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* ===== PAGE TITLES ===== */
+ 
+h1 {
+  font-weight: bold;
+  color: #2c3e50;
+}
+ 
+/* ===== NAVBAR ===== */
+ 
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+}
+ 
+/* ===== PIZZA CARDS ===== */
+ 
+.card {
+  border-radius: 12px;
+  transition: 0.3s;
+  border: none;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+ 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+ 
+.card-title {
+  font-weight: bold;
+  color: #2c3e50;
+}
+ 
+.card-text {
+  color: #555;
+}
+ 
+/* ===== BUTTONS ===== */
+ 
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+}
+ 
+.btn-primary:hover,
+.btn-success:hover,
+.btn-warning:hover,
+.btn-danger:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+ 
+/* ===== SEARCH BOX ===== */
+ 
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+}
+ 
+/* ===== FOOTER ===== */
+ 
+footer {
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+ 
+/* ===== TABLES ===== */
+ 
+table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+ 
+/* ===== CONTAINER ===== */
+ 
+.container {
+  margin-top: 20px;
+}
+.pizza-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+ 
+.pizza-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+ 
+.card-title {
+  font-weight: 700;
+}
+ 
+.card-text {
+  min-height: 50px;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+ 
+.navbar-brand {
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+ 
+.navbar button {
+  transition: all 0.3s ease;
+}
+ 
+.navbar button:hover {
+  transform: translateY(-3px);
+}
+ 
+.card {
+  border-radius: 15px !important;
+}
+ 
+.btn {
+  border-radius: 10px !important;
+}
